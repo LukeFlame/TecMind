@@ -43,7 +43,7 @@
 
 <h2 align="center">Como usar 🤔</h2>
 
-<p>Você pode acessar o site hospedado no GitHub Pages [aqui](https://lukeflame.github.io/TecMind/) ou:</p>
+<p>Você pode acessar o site hospedado no GitHub Pages aqui: https://lukeflame.github.io/TecMind/ ou:</p>
 
 ```
 
