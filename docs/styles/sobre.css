@@ -1,0 +1,44 @@
+main about-container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 250px 70px 250px;
+}
+
+main about-container img {
+    width: 340px;
+    height: 284px;
+}
+
+main about-container h1.title {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #32A7AC;
+    text-align: left;
+
+    margin-top: 40px;
+}
+
+main about-container text-block {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 40px;
+}
+
+main about-container text-block p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(39, 39, 39);
+
+    width: 45%;
+}
+

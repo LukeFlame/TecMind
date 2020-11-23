@@ -1,0 +1,46 @@
+main h1 {
+    width: 350px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 50px;
+    color: #32A7AC;
+    margin-top: 35px;
+}
+
+main .equipe-container {
+    width: 980px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 18px;
+    margin: 50px 0 50px 0;
+}
+
+main .equipe-container .equipe-member {
+    width: 478px;
+    height: 208px;
+    display: flex;
+    background-color: rgb(246, 246, 246);
+    align-items: center;
+    padding: 0 150px 0 30px;
+    justify-content: space-between;
+}
+
+main .equipe-container .equipe-member img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+main .equipe-container .equipe-member h1 {
+    width: auto;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 60px;
+}

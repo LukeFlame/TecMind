@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TecMind - Tecnologia ao seu alcance</title>
+    <link rel="shortcut icon" href="./assets/LogoSimbolo.png" type="image/x-icon">
     
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -14,14 +19,16 @@
     <div id="container">
         <header>
             <div class="header-content">
-                <img src="./assets/LogoLand.png" alt="Logomarca" class="logo">
+                <a href="./index.html" class="logo">
+                    <img src="./assets/LogoLand.png" alt="Logomarca" class="logo">
+                </a>
                 <div class="search">
                     <input type="text" class="search" placeholder="Pesquise cursos aqui">
-                    <img src="/assets/Lupa.png" class="search" alt="Lupa">
+                    <img src="./assets/Lupa.png" class="search" alt="Lupa">
                 </div>
                 <div class="client-area">
                     <a href="#" class="cart">
-                        <img src="/assets/Carrinho.png" alt="Carrinho">
+                        <img src="./assets/Carrinho.png" alt="Carrinho">
                     </a>
                     <div class="member-area">
                         <a href="#" class="memberarea">
@@ -36,12 +43,12 @@
 
             <div class="menu">
                 <ul>
-                    <li><a href="./index.html" class="home">INÍCIO</a></li>
-                    <li><a href="#" class="courses">CURSOS</a></li>
-                    <li><a href="#" class="about">QUEM SOMOS</a></li>
-                    <li><a href="#" class="services">SERVIÇOS</a></li>
-                    <li><a href="#" class="contact">CONTATO</a></li>
-                    <li><a href="#" class="team">EQUIPE</a></li>
+                    <li><a href="./index.html" class="home selected">INÍCIO</a></li>
+                    <li><a href="./views/cursos.html" class="courses">CURSOS</a></li>
+                    <li><a href="./views/sobre.html" class="about">QUEM SOMOS</a></li>
+                    <li><a href="./views/services.html" class="services">SERVIÇOS</a></li>
+                    <li><a href="./views/contato.html" class="contact">CONTATO</a></li>
+                    <li><a href="./views/equipe.html" class="team">EQUIPE</a></li>
                 </ul>
             </div>
         </header>
@@ -49,7 +56,7 @@
             <div class="rotate-banner">
                 <div class="oferta">
                     <h1 class="titulo">Preços de <strong>Black Friday</strong> em todos os Cursos</h1>
-                    <a href="#" class="ofertas">Conferir Agora</a>
+                    <a href="./views/cursos.html" class="ofertas">Conferir Agora</a>
                 </div>
                 <img src="./assets/BannerPrincipal.jpg" alt="Banner">
             </div>
@@ -87,7 +94,7 @@
             <div class="mid-main">
                 <div class="mid-main-left">
                     <img src="./assets/VisitCard.jpg" alt="Cartão de Visita TecMind" class="visit-card">
-                    <a href="#" class="more-products">Mais produtos ></a>
+                    <a href="./views/cursos.html" class="more-products">Mais produtos ></a>
                 </div>
 
                 <div class="mid-main-right">
@@ -97,25 +104,25 @@
 
                     <div class="products">
                         <div class="course">
-                            <a href="" class="course">
+                            <a href="./views/products/product1.html" class="course">
                                 <img src="./assets/Course1-preview.jpg" alt="Curso de Javascript" class="course1">
                                 Curso de Javascript
                             </a>
                         </div>
                         <div class="course">
-                            <a href="#" class="course">
+                            <a href="./views/products/product2.html" class="course">
                                 <img src="./assets/Course2-preview.png" alt="Curso de Excel" class="course2">
                                 Curso de Excel
                             </a>
                         </div>
                         <div class="course">
-                            <a href="#" class="course">
+                            <a href="./views/products/product3.html" class="course">
                                 <img src="./assets/Course3-preview.jpg" alt="Curso de Hardware" class="course3">
                                 Curso de Hardware
                             </a>
                         </div>
                         <div class="course">
-                            <a href="#" class="course">
+                            <a href="./views/products/product4.html" class="course">
                                 <img src="./assets/Course4-preview.jpg" alt="Curso de Unity" class="course4">
                                 Curso de Unity
                             </a>
@@ -132,7 +139,7 @@
                     <p class="support">Equipe disponível 24 horas por dia para oferecer o melhor atendimento, caso precise de ajuda entre em contato conosco!</p>
                     <div class="support-box-button">
                         <img src="./assets/Service4.png" alt="Suporte" class="support">
-                        <a href="#" class="support">Contato</a>
+                        <a href="./views/contato.html" class="support">Contato</a>
                     </div>
                 </div>
             </div>
@@ -145,14 +152,14 @@
                 </div>
                 <div class="store">
                     <h1 class="store">Loja</h1>
-                    <a href="#" class="courses">Cursos</a>
-                    <a href="#" class="services">Serviços</a>
+                    <a href="./views/cursos.html" class="courses">Cursos</a>
+                    <a href="./views/services.html" class="services">Serviços</a>
                 </div>
                 <div class="details">
                     <h1 class="details">Detalhes</h1>
-                    <a href="#" class="about">Sobre nós</a>
-                    <a href="#" class="contact">Contato</a>
-                    <a href="#" class="team">Equipe</a>
+                    <a href="./views/sobre.html" class="about">Sobre nós</a>
+                    <a href="./views/contato.html" class="contact">Contato</a>
+                    <a href="./views/equipe.html" class="team">Equipe</a>
                 </div>
                 <div class="social-media">
                     <h1 class="social-media">Junte-se a nós!</h1>
@@ -165,8 +172,8 @@
                         </a>
                         <a href="#" class="instagram">
                             <img src="./assets/Instagram-icon.png" alt="instagram">
+                        </a>
                     </div>
-                    </a>
                 </div>
             </div>
         </footer>

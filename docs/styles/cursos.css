@@ -1,0 +1,123 @@
+main h1.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #32A7AC;
+
+    margin-top: 50px;
+}
+
+main products-container {
+    width: 100vw;
+    height: auto;
+    padding: 25px 60px 100px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main products-container .filter {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+main products-container .filter .filter-block h1.filter {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #1b1b1b;
+}
+
+main products-container .filter .filter-block hr {
+    width: 200px;
+    margin: 25px 0 25px 0;
+}
+
+main products-container .filter .filter-block h2.filter {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    color: #1b1b1b;
+}
+
+main products-container .filter .filter-block .options {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+}
+
+main products-container .filter .filter-block .options a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    color: #1b1b1b;
+    text-decoration: none;
+    transition: color 200ms;
+}
+
+main products-container .filter .filter-block .options a.selected {
+    font-weight: 700;
+}
+
+main products-container .filter .filter-block .options a:hover {
+    color: #c9c9c9;
+}
+
+main products-container .filter .filter-block hr.price-bar {
+    width: 180px;
+    margin: 25px auto 25px auto;
+    padding: 1px;
+    border-radius: 25px 25px 25px 25px;
+    background-color: black;
+}
+
+main products-container .filter .filter-block .price-bar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6px 0 6px;
+}
+
+main products-container .products {
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+main products-container .products {
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+main products-container .products div.course a.course {
+    text-decoration: none;
+    text-align: center;
+}
+
+main products-container .products div.course a.course img {
+    width: 246px;
+    height: 246px;
+}
+
+main products-container .products div.course a.course h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1b1b1b;
+    margin-top: 10px;
+}
+
+main products-container .products div.course a.course p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: #1b1b1b;
+}
