@@ -19,8 +19,8 @@
 <h2 align="center">Previews 🖥️</h2>
 
    <p align="center">
-      <img src="https://cdn.discordapp.com/attachments/643906024494989319/780537417442132008/LogoSimbolo.png" width="90%" alt="Página Inicial"/>
-      <img src="https://cdn.discordapp.com/attachments/643906024494989319/780537417442132008/LogoSimbolo.png" width="90%" alt="Página de Cursos"/>
+      <img src="https://cdn.discordapp.com/attachments/643906024494989319/780539972696014888/Screenshot_72.png" width="90%" alt="Página Inicial"/>
+      <img src="https://cdn.discordapp.com/attachments/643906024494989319/780539982400979014/Screenshot_71.png" width="90%" alt="Página de Cursos"/>
    </p>
 
 ---
